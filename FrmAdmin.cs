@@ -49,5 +49,25 @@ namespace Ticari_Otomasyon
             }
             baglanti.Baglanti().Close();
         }
+
+        private void txtSifre_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSifre_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtKullaniciAdi_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblKullaniciAdi_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

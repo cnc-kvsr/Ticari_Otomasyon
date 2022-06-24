@@ -49,6 +49,7 @@ namespace Ticari_Otomasyon
             this.lblKullaniciAdi.Size = new System.Drawing.Size(116, 24);
             this.lblKullaniciAdi.TabIndex = 0;
             this.lblKullaniciAdi.Text = "Kullanıcı Adı:";
+            this.lblKullaniciAdi.Click += new System.EventHandler(this.lblKullaniciAdi_Click);
             // 
             // txtKullaniciAdi
             // 
@@ -58,6 +59,7 @@ namespace Ticari_Otomasyon
             this.txtKullaniciAdi.Properties.Appearance.Options.UseFont = true;
             this.txtKullaniciAdi.Size = new System.Drawing.Size(205, 30);
             this.txtKullaniciAdi.TabIndex = 1;
+            this.txtKullaniciAdi.EditValueChanged += new System.EventHandler(this.txtKullaniciAdi_EditValueChanged);
             // 
             // txtSifre
             // 
@@ -68,6 +70,7 @@ namespace Ticari_Otomasyon
             this.txtSifre.Properties.UseSystemPasswordChar = true;
             this.txtSifre.Size = new System.Drawing.Size(205, 30);
             this.txtSifre.TabIndex = 2;
+            this.txtSifre.EditValueChanged += new System.EventHandler(this.txtSifre_EditValueChanged);
             // 
             // lblSifre
             // 
@@ -78,6 +81,7 @@ namespace Ticari_Otomasyon
             this.lblSifre.Size = new System.Drawing.Size(45, 24);
             this.lblSifre.TabIndex = 2;
             this.lblSifre.Text = "Şifre:";
+            this.lblSifre.Click += new System.EventHandler(this.lblSifre_Click);
             // 
             // btnGirisYap
             // 
@@ -115,7 +119,7 @@ namespace Ticari_Otomasyon
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayoutStore = System.Windows.Forms.ImageLayout.Stretch;
             this.BackgroundImageStore = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImageStore")));
-            this.ClientSize = new System.Drawing.Size(725, 475);
+            this.ClientSize = new System.Drawing.Size(725, 479);
             this.Controls.Add(this.labelControl3);
             this.Controls.Add(this.btnGirisYap);
             this.Controls.Add(this.txtSifre);
